@@ -1,5 +1,7 @@
 # Docker – Guide Complet pour Débutants
 
+![cover](CleanShot%202025-03-17%20at%2009.31.15.png)
+
 ## 1. Introduction à Docker
 
 Docker est une plateforme logicielle qui utilise la **conteneurisation** pour exécuter des applications dans des environnements isolés appelés *conteneurs*. Un conteneur embarque une application ainsi que toutes ses dépendances (bibliothèques, configuration, etc.) afin qu’elle puisse tourner de manière uniforme sur tout système supportant Docker ([Docker, c'est quoi ?](https://www.redhat.com/fr/topics/containers/what-is-docker#:~:text=Voici%20les%20diff%C3%A9rentes%20d%C3%A9finitions%C2%A0%3A)). En s’appuyant sur des fonctionnalités du noyau Linux (telles que les *cgroups* et les *namespaces*), Docker parvient à isoler les processus tout en consommant peu de ressources ([Docker, c'est quoi ?](https://www.redhat.com/fr/topics/containers/what-is-docker#:~:text=La%20technologie%20Docker%20utilise%20le,que%20celui%20des%20syst%C3%A8mes%20distincts)). On obtient ainsi un niveau d’isolation suffisant pour exécuter plusieurs applications sur la même machine en toute sécurité, sans conflits de dépendances, et avec une empreinte beaucoup plus légère qu’avec la virtualisation traditionnelle.
